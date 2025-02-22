@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Details Table</title>
-   
+  <meta charset="UTF-8">
+  <title>Student Details Table</title>
+  <style>
+    /* The table must have a yellow background */
+    table {
+      background-color: rgb(255, 255, 0);
+      border-collapse: collapse; /* Ensures borders merge into a single line */
+    }
+    /* The table, th, tr, and td must have a 1px solid black border */
+    table, tr, th, td {
+      border: 1px solid rgb(0, 0, 0);
+    }
+  </style>
 </head>
 <body>
 
-    <table>
-        <caption><strong>Student Details</strong></caption>
-        <tr>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>BRANCH</th>
-        </tr>
-        <tr>
-            <td>Shaw</td>
-            <td>20</td>
-            <td>CSE</td>
-        </tr>
-        <tr>
-            <td>Adil</td>
-            <td>21</td>
-            <td>ECE</td>
-        </tr>
-    </table>
+  <table>
+    <!-- The table caption must read "Student Details" -->
+    <caption>Student Details</caption>
+
+    <!-- Table headers must be "NAME", "AGE", and "BRANCH" -->
+    <tr>
+      <th>NAME</th>
+      <th>AGE</th>
+      <th>BRANCH</th>
+    </tr>
+
+    <!-- Table rows with data: Shaw, 20, CSE -->
+    <tr>
+      <td>Shaw</td>
+      <td>20</td>
+      <td>CSE</td>
+    </tr>
+
+    <!-- Another row with data: Adil, 21, ECE -->
+    <tr>
+      <td>Adil</td>
+      <td>21</td>
+      <td>ECE</td>
+    </tr>
+  </table>
 
 </body>
 </html>
