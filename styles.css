@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+ 
+        table {
+            width: 300px;
+            background-color: yellow;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            font-weight: bold;
+        }
